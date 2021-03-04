@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+       
+
+    </head>
+    <body>
+        <header>
+           <!-- Slideshow container -->
+                 <div id="container-nav">
+                            <nav>
+                                <ul>
+                                    <li><a href="home.html" class="active"><img src="circle.svg">Home</a></li>
+                                    <li><a href="page-2.html">Page 2</a></li>
+                                </ul>
+                                <button href="#" id="search"></button>
+                            </nav>
+                        
+                    </div>
+
+                    <!-- Full-width images with number and caption text -->
+            
+                    <div class="mySlides fade ">                   
+                        <img src="https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 ">
+                        <h1 class="title-img">Slide 1</h1>
+                        <p class="text">Text for slide 1</p>
+                    </div>
+                    
+                    <div class="mySlides fade ">                   
+                        <img src="https://images.pexels.com/photos/457881/pexels-photo-457881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 ">
+                        <h1 class="title-img">Slide 2</h1>
+                        <p class="text">Text for slide 2</p>
+                    </div>
+
+                    <div class="mySlides fade ">                   
+                        <img src="https://images.pexels.com/photos/1655166/pexels-photo-1655166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                        <h1 class="title-img">Slide 3</h1>
+                         <p class="text">Text for slide 3</p>
+                     </div>
+
+
+                    <!-- The dots/circles -->
+                    <div id="dots">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+        </header> 
+
+        <section>
+            <h1>Our Sections</h1>
+            <div class="tabs">
+            <div id="b-tabs">
+            <button class="tablink " onclick="openPage('section1', this)" id="defaultOpen">Section 1</button>
+            <button class="tablink" onclick="openPage('section2', this)" >Section 2</button>
+            </div>
+            <div id="section1" class="tabcontent">
+                <div class="row">
+                    <div class="column">
+                        <div class="container-img">
+                        <img src="https://images.pexels.com/photos/3046638/pexels-photo-3046638.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260">
+                        <div class="overlay">
+                            <div class="in-overlay">
+                            <img src="view.svg">Image title 1<hr>
+                            </div>
+                         </div>
+                        </div>
+                 </div>
+                <div class="column">
+                        <div class="container-img">
+                            <img src="https://images.pexels.com/photos/2125083/pexels-photo-2125083.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+                            <div class="overlay">
+                                    <div class="in-overlay-2">
+                                     <img src="view.svg">Image title 2<hr>
+                                     </div>
+                            </div>
+                        </div>
+                       <div class="container-img">
+                            <img src="https://images.pexels.com/photos/1294230/pexels-photo-1294230.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+                            <div class="overlay">
+                                <div class="in-overlay-2">
+                                <img src="view.svg">Image title 3<hr>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                    <div class="column">
+                        <div class="container-img">
+                            <img src="https://images.pexels.com/photos/1341322/pexels-photo-1341322.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+                            <div class="overlay">
+                                <div class="in-overlay-2">
+                                <img src="view.svg">Image title 4<hr>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="container-img">
+                            <img src="https://images.pexels.com/photos/2127969/pexels-photo-2127969.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+                            <div class="overlay">
+                                <div class="in-overlay-2">
+                                <img src="view.svg">Image title 5<hr>
+                                </div>
+                            </div>
+                         </div>            
+                     </div>
+                </div>
+            </div>
+
+              
+            <div id="section2" class="tabcontent">
+                <h4>Our Services</h4>
+               <div class="section2-col sec-per">
+                    
+                    <h1>We Create Websites and Campaigns that expose new opportunities</h1>
+                    <div class="text-p">
+                        <p> PERCENTAGE 1</p>
+                        <p>60%</p>
+                    </div>
+                    <div class="percent-circle-f">                    
+                    <div id="f-p"></div>
+                    <div class="circle-p">      
+                        <div class="circle-in-p"></div>
+                    </div>
+                    </div>
+                    <div class="text-p">
+                        <p> PERCENTAGE 2</p>
+                        <p>20%</p>
+                    </div>
+                    <div class="percent-circle-s">                    
+                    <div id="s-p"></div>
+                    <div class="circle-p">      
+                        <div class="circle-in-p"></div>
+                    </div>
+                    </div>
+                    <div class="text-p">
+                        <p> PERCENTAGE 3</p>
+                        <p>5%</p>
+                    </div>
+                    <div class="percent-circle-t">                    
+                    <div id="t-p"></div>
+                    <div class="circle-p">      
+                        <div class="circle-in-p"></div>
+                    </div>
+                    </div>
+                    <div class="text-p">
+                        <p> PERCENTAGE 4</p>
+                        <p>25%</p>
+                    </div>
+                    <div class="percent-circle-fo">                    
+                    <div id="fo-p"></div>
+                    <div class="circle-p">      
+                        <div class="circle-in-p"></div>
+                    </div>
+                    </div>
+               </div>
+               <div class="section2-col col-form">
+                   <h3>Validate your info </h3>
+                   <p>We work with ecosystem leaders, corporations and startups worldwide. How can we help you?</p>
+                   <form>
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone" pattern="[+][0-9]{2}[2|6][0-9]{9}" >
+                    <input type="email" id="email" name="email" placeholder="Your Email" >
+                    <input type="password" id="pass" name="pass" placeholder="Your Password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.&n])(?=.*[A-Z])(?=.*[a-z]).*$" >
+                    <button type="submit">Submit</button>
+                </form>
+               </div>
+            </div>
+
+        </div>
+        </section>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="app.js"></script>
+        <script>
+           
+        </script>
+    </body>
+</html>
